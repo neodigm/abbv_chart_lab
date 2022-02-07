@@ -6,8 +6,11 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js" integrity="sha256-bC3LCZCwKeehY6T4fFi9VfOU0gztUa+S4cnkIhVPZ5E=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <section style="height:220px; width:602px">
+        <canvas id="myChart"></canvas>        
+    </section>
 
-    <canvas id="myChart" width="400" height="400"></canvas>
+
     <script>
     const ctx = document.getElementById('myChart').getContext('2d');
     const myChart = new Chart(ctx, {
